@@ -11,16 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     
-    let sectionX =  ["A","B","C","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
-    
     let listX = ["China","Antartica","Europe","Africa","Pakistan","Australia","India","Korea","Singapore","Saudi Arabia","Malasyia","Denmark","Mexico","Canada","Iceland","Bulgaria","London","Iraq","France","Afganistan","Algeria","Sri Lanka","New Zealand","Maldives","Zambia","Italy","Belgium","Hungary","Bhutan","Libya","Egypt","Myanmar","Austria"]
-    
-    
-    
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int{
-        
-        return sectionX.count
-    }
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
